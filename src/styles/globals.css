@@ -1,0 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e0f7e0; /* Ajuste esta cor para corresponder à imagem fornecida */
+  font-family: Arial, sans-serif;
+}

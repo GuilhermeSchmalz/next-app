@@ -1,0 +1,208 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #ffffff; /* Cor de fundo do header */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative; /* Necessário para o posicionamento absoluto da caixa de configurações */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinha a logo à esquerda */
+  margin-left: 2rem; /* Ajustar margem para mover a logo mais para a direita */
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center; /* Alinha verticalmente os botões ao centro */
+  gap: 1rem;
+  width: 100%;
+  justify-content: space-between; /* Espaça os dois grupos de botões */
+}
+
+.leftButtons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 6rem; /* Ajustar margem para mover os botões mais para a esquerda */
+}
+
+.rightButtons {
+  display: flex;
+  gap: 1rem;
+  margin-right: 6rem; /* Ajustar margem para mover os botões mais para a esquerda */
+}
+
+.settingsBox {
+  position: absolute;
+  top: 4rem; /* Ajuste conforme necessário para alinhar abaixo do botão */
+  right: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  z-index: 10;
+}
+
+.settingsButton {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.settingsButton:hover {
+  background-color: #45a049;
+}
+
+.settingsButton:active {
+  background-color: #45a049;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button {
+  background-color: #4CAF50; /* Cor de fundo do botão */
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px; /* Bordas arredondadas */
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px #999; /* Sombra do botão */
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  background-color: #45a049;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.checkButton {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 12px; /* Bordas arredondadas */
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  margin-top: 1rem; /* Margem superior para espaçamento */
+  box-shadow: 0 4px #999; /* Sombra do botão */
+}
+
+.checkButton:hover {
+  background-color: #45a049;
+}
+
+.checkButton:active {
+  background-color: #45a049;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.margin-right-large {
+  margin-right: 4rem; /* Espaçamento maior à direita */
+}
+
+.title {
+  font-family: 'Arial', sans-serif;
+  color: #006400; /* Cor verde escuro */
+  text-align: center;
+  margin-bottom: 0.1rem; /* Reduzir a margem inferior para aproximar os textos */
+  font-size: 2rem; /* Ajustar o tamanho da fonte */
+  font-weight: bold;
+}
+
+.text {
+  font-family: 'Arial', sans-serif;
+  color: #333333; /* Tornar o texto mais escuro */
+  max-width: 50%;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 0; /* Remover margem superior para aproximar os textos */
+  font-weight: bold; /* Aplicar negrito ao texto */
+}
+
+.text p {
+  font-weight: bold; /* Aplicar negrito ao parágrafo */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+}
+
+.image {
+  max-width: 45%;
+  height: auto; /* Manter a proporção da imagem */
+}
+
+.aboutUs {
+  width: 100%;
+  padding: 2rem;
+  background-color: #f9f9f9; /* Cor de fundo da seção */
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+  color: #006400; /* Cor verde escuro */
+  margin-bottom: 1rem;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  padding: 1rem;
+}
+
+.socialMedia {
+  width: 100%;
+  padding: 2rem;
+  background-color: #ffffff; /* Cor de fundo da seção */
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
